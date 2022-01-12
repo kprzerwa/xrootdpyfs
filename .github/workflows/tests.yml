@@ -31,6 +31,8 @@ jobs:
             cmake: cmake
           - xrootd-version: 4.12.7
             cmake: cmake3
+          - xrootd-version: 5.4.0
+              cmake: cmake3
 
     steps:
       - name: Checkout
